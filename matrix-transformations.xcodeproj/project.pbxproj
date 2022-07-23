@@ -12,6 +12,7 @@
 		DD8B8B6C288B2E29005D700C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD8B8B6B288B2E29005D700C /* Assets.xcassets */; };
 		DD8B8B6F288B2E29005D700C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD8B8B6E288B2E29005D700C /* Preview Assets.xcassets */; };
 		DD8B8B92288B6C95005D700C /* Plane.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8B8B91288B6C95005D700C /* Plane.swift */; };
+		DD8B8B94288B9544005D700C /* TransformationSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8B8B93288B9544005D700C /* TransformationSlider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		DD8B8B6B288B2E29005D700C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD8B8B6E288B2E29005D700C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DD8B8B91288B6C95005D700C /* Plane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plane.swift; sourceTree = "<group>"; };
+		DD8B8B93288B9544005D700C /* TransformationSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformationSlider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				DD8B8B6B288B2E29005D700C /* Assets.xcassets */,
 				DD8B8B6D288B2E29005D700C /* Preview Content */,
 				DD8B8B91288B6C95005D700C /* Plane.swift */,
+				DD8B8B93288B9544005D700C /* TransformationSlider.swift */,
 			);
 			path = "matrix-transformations";
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 				DD8B8B6A288B2E29005D700C /* MainView.swift in Sources */,
 				DD8B8B92288B6C95005D700C /* Plane.swift in Sources */,
 				DD8B8B68288B2E29005D700C /* matrix_transformationsApp.swift in Sources */,
+				DD8B8B94288B9544005D700C /* TransformationSlider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
