@@ -40,13 +40,13 @@ struct MainView: View {
 
 
             VStack {
-                TransformationSlider( transformation: $plane.xAxisRotate,  name: "X Axis Rotate", range: 0...50)
-                TransformationSlider( transformation: $plane.yAxisRotate,  name: "Y Axis Rotate", range: 0...50)
-                TransformationSlider( transformation: $plane.zAxisRotate,  name: "Z Axis Rotate", range: 0...100)
+                TransformationSlider( transformation: $plane.xAxisRotate,  name: "X Axis Rotate", range: 0...50, degree: true)
+                TransformationSlider( transformation: $plane.yAxisRotate,  name: "Y Axis Rotate", range: 0...50, degree: true)
+                TransformationSlider( transformation: $plane.zAxisRotate,  name: "Z Axis Rotate", range: 0...100, degree: true)
                 TransformationSlider( transformation: $plane.xScale,  name: "X Scale", range: 0...3)
                 TransformationSlider( transformation: $plane.yScale,  name: "Y Scale", range: 0...3)
-                TransformationSlider( transformation: $plane.xOffset,  name: "X Offset", range: 0...50)
-                TransformationSlider( transformation: $plane.yOffset,  name: "Y Offset", range: 0...50)
+                TransformationSlider( transformation: $plane.xOffset,  name: "X Offset", range: -100...100)
+                TransformationSlider( transformation: $plane.yOffset,  name: "Y Offset", range: -100...100)
             }
             .padding()
             .background(Color.black.opacity(0.1))

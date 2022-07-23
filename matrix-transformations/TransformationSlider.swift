@@ -11,14 +11,14 @@ struct TransformationSlider: View {
     @Binding var transformation: Double
     var name: String
     var range: ClosedRange<Double>
+    var degree: Bool = false
 
     var body: some View {
         VStack(alignment: .leading) {
-
             HStack {
                 Text(name)
                 Spacer()
-                Text("\(Int(transformation))°")
+                Text("\(Int(transformation))\(degree ? "°" : "")")
             }
             .foregroundColor(.secondary)
             Slider(
@@ -31,6 +31,6 @@ struct TransformationSlider: View {
 
 struct TransformationSlider_Previews: PreviewProvider {
     static var previews: some View {
-        TransformationSlider(transformation: .constant(10), name: "X Axis Offset", range: 0...10)
+        TransformationSlider(transformation: .constant(10), name: "X Axis Offset", range: 0...10, degree: true)
     }
 }
